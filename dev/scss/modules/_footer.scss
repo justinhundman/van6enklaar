@@ -1,0 +1,57 @@
+.Footer {
+	font-size: 12px;
+	background: rgba(0, 0, 0, 0.3);
+	p{
+		color: white;
+		font-size: 12px; 
+	}
+	table{
+		color: white;
+	}
+	h4{
+		color: white;
+		font-size: 15px;
+  		font-weight: 100;
+	}
+}
+
+.plint{
+	background-image: url("../img/plint.png");
+}
+
+// RESPONSIVE FOOTER
+.Footer-inner .widget {
+	@include span-columns(4);
+	@media screen and(max-width: 980px){
+		@include span-columns(12);
+	}
+}
+
+.backgroundfooter{
+	background-image: url("../img/tapijt_achtergrond.jpg");
+	padding-top: 100px;
+}
+
+.Footer-inner {
+	 padding-top: 5px;
+ 	 padding-bottom: 20px;
+}
+
+//style the widgets
+.Footer-inner .widget {
+	width: 223px;
+}
+
+.Socket{
+	color: white;
+	text-align: center;
+	a{
+		color: white;
+	}
+} 
+
+.textwidget{
+	a{
+		color: white; 
+	}
+}

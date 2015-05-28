@@ -1,0 +1,228 @@
+.background{
+	background-image: url("../img/muur_achtergrond.jpg");
+}
+
+.whiteback{
+	background: white; 
+}
+
+.raamkozijn{
+  background-image: url("../img/raamkozijn.png");
+  background-repeat: no-repeat;
+  z-index: 10;
+  position: absolute;
+  margin-top: 20px;
+  height: 105%;
+  width: 112%;
+  background-size: 100%;
+  margin-left: -23px;
+  margin-top: -23px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.Content {
+
+}
+
+.buttonref{
+	text-align: center;
+	button{
+		margin-top: -10px !important;
+	}
+}
+
+.recentiehome{
+	text-align: right;
+	margin-bottom: 0px;
+	h5{
+		 font-size: 18px;
+ 		 text-align: center;
+ 		 margin-bottom: 5px;
+ 		 font-style: italic;
+	}
+	p{
+		margin-bottom: 0px;	
+	}
+}
+
+.onlineafspraak{
+	color: white;
+	background: $c-red;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	border: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 27px;
+	&:hover{
+		background: #910600;
+		color: white;
+	}
+}
+
+.gform_title{
+	display: none;
+}
+
+.gform_button{
+	color: white;
+  	background: #ca0600;
+  	border-radius: 50px;
+  	border: 0px;
+  	padding: 13px;
+  	padding-right: 20px;
+  	padding-left: 20px;
+  	margin-top: 27px;
+}
+
+.buttonraam{
+	background-image: url("../img/buttonraam.jpg");
+	background-repeat: no-repeat;
+	height: 150px;
+	border: 4px solid white;
+  	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+  	max-width: 179px;
+}
+
+.buttonvloer{
+	background-image: url("../img/buttonvloer.jpg");
+	background-repeat: no-repeat;
+	height: 150px;
+	border: 4px solid white;
+  	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+  	max-width: 179px;
+}
+
+.buttonshowroom{
+	background-image: url("../img/buttonshowroom.jpg");
+	background-repeat: no-repeat;
+	height: 150px;
+	border: 4px solid white;
+  	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+  	max-width: 179px;
+}
+
+.marginbutton{
+	margin-top:45px;
+}
+
+.redbutton{
+	background: $c-red;
+	color: white;
+	-webkit-border-top-right-radius: 25px;
+	-webkit-border-bottom-right-radius: 25px;
+	-moz-border-radius-topright: 25px;
+	-moz-border-radius-bottomright: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	padding-left: 16px;
+  	padding-top: 5px;
+  	padding-bottom: 5px;
+  	width: 94px;
+  	margin-top: 10px;
+}
+
+.whitebutton{
+	background: white;
+	float: right;
+	-webkit-border-top-left-radius: 25px;
+	-webkit-border-bottom-left-radius: 25px;
+	-moz-border-radius-topleft: 25px;
+	-moz-border-radius-bottomleft: 25px;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px; 
+	padding-right: 12px;
+	padding-top: 2px;
+  	padding-bottom: 2px;
+  	padding-left: 14px;
+  	margin-top: 70px;
+}
+ 
+ .margincontent{
+ 	margin-right: 10.35765%;
+ 	float: right !important;
+ 	padding-left: 8px;
+  	padding-right: 8px;
+  	min-height: 690px;
+ }
+
+ .wp-image-64,
+ .wp-image-95,
+ .wp-image-99{
+ 	margin-bottom: 35px;
+ }
+
+ .piccontact{
+ 	margin-left: -15px;
+ }
+
+ /** LIGHTBOX MARKUP **/
+
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999; 
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+
+}
+
+.lightbox img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.klanten{
+	float: left;
+}
+
+.post{
+	p{
+		margin-top: 42px;
+	}
+}
+
+label[for=comment]
+{
+    display: none;
+}
+
+#submit{
+  background-color: #214b19;
+  color: white;
+  border: none;
+  padding-left: 5px;
+  border: 2px;
+  border-radius: 10px;
+  padding-right: 13px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.form-allowed-tags{
+	display: none;
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+@media all and (max-width: 768px) { 
+	 .curtains {
+	  display: none;
+	}
+}
