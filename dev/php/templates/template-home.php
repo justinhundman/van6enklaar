@@ -5,19 +5,23 @@ Template Name: Homepage
 ?>
 
 <?php get_header(); ?>
-	<div class="background">
+	<div class="background homebottom">
 		<div class="u-gridContainer">
-			<div class="u-gridRow">
+			<div class="u-gridRow paddingsite">
 				<div class="u-gridCol2">
 					<div class="curtains">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/curtainl2.png" />  
                     </div> 
 				</div>
-					<div class="u-gridCol4 buttonref">
+					<div class="u-gridCol4 buttonref positionraam">
+											<div class="redtitle">
+												WELKOM BIJ VAN ZESSEN KLAAR
+											</div>
 						<div style="position:relative;">
 							<div class="raamkozijn">
 							</div>
-							<div class="Slider"> <!-- Dit is de slider in de onderkant header -->
+							<div class="Slider">
+											 <!-- Dit is de slider in de onderkant header -->
 							                   <?php
 
 															$args = array(
@@ -58,76 +62,83 @@ Template Name: Homepage
                     </div> 
 					</div>
 					<div class="u-gridRow">
-						<div class="whitehome whiteback">
-							<div class="u-gridCol2 whiteback">
-								<div>
-								<h5>Persoonlijk <font color="red">+</font> Praktisch</h5>
-								Voor een goed advies op 
-								maat nemen we de tijd om 
-								uw wensen in kaart te 
-								brengen. We denken mee 
-								over uw persoonlijke smaak, 
-								woonsituatie, budget, etc.
-								<p>
-								</div>
-								<div>
-								<h5>Kwaliteit <font color="red">+</font> service</h5>
-								Door onze ruime ervaring 
-								weten we hoe belangrijk 
-								kwaliteit en een goede service 
-								zijn. Die kwaliteit begint bij 
-								onze producten en ziet u 
-								terug in een professioneel 
-								advies. Bij de afwerking 
-								hebben onze vakmensen oog 
-								voor detail en persoonlijke 
-								service.<p>
-								</div>
-								<div>
-								<h5>Merken <font color="red">+</font> collecties</h5>
-								Het is onmogelijk om alle 
-								collecties hier te laten zien. 
-								Kom voor inspiratie en advies 
-								naar onze gezellige winkel 
-								in Alphen aan den Rijn. 
-								Ervaar welke materialen het 
-								best bij uw wensen aansluiten.<br><br>
-								Samen komen we tot het 
-								mooiste resultaat!
-								<h5>Ronald Stoetzer  <font color="red">+</font>  team</h5><p>
-								</div>
-							</div>
-							<div class="u-gridCol2 whiteback">
-								<button class="onlineafspraak" type="button">MAAK ONLINE EEN AFSPRAAK</button>
-								<div class="buttonraam marginbutton">
-									<div class="redbutton">
-										RAMEN
+						<div class="whitehome ">
+							<div class="u-gridCol4 whiteback homefloat">
+								<div class="u-gridContainer">
+									<div class="u-gridCol6">
+										<div>
+										<h5>Persoonlijk <font color="red">+</font> Praktisch</h5>
+										Voor een goed advies op 
+										maat nemen we de tijd om 
+										uw wensen in kaart te 
+										brengen. We denken mee 
+										over uw persoonlijke smaak, 
+										woonsituatie, budget, etc.
+										<p>
+										</div>
+										<div>
+										<h5>Kwaliteit <font color="red">+</font> service</h5>
+										Door onze ruime ervaring 
+										weten we hoe belangrijk 
+										kwaliteit en een goede service 
+										zijn. Die kwaliteit begint bij 
+										onze producten en ziet u 
+										terug in een professioneel 
+										advies. Bij de afwerking 
+										hebben onze vakmensen oog 
+										voor detail en persoonlijke 
+										service.<p>
+										</div>
+										<div>
+										<h5>Merken <font color="red">+</font> collecties</h5>
+										Het is onmogelijk om alle 
+										collecties hier te laten zien. 
+										Kom voor inspiratie en advies 
+										naar onze gezellige winkel 
+										in Alphen aan den Rijn. 
+										Ervaar welke materialen het 
+										best bij uw wensen aansluiten.<br><br>
+										Samen komen we tot het 
+										mooiste resultaat!
+										<h5>Ronald Stoetzer  <font color="red">+</font>  team</h5><p>
+										</div>
 									</div>
-									<div class="whitebutton">
-										Meer informatie
-									</div>
-								</div>
-								<div class="buttonvloer marginbutton">
-									<div class="redbutton">
-										VLOEREN
-									</div>
-									<div class="whitebutton">
-										Meer informatie
-									</div>
-								</div>
-								<div class="buttonshowroom marginbutton">
-									<div class="redbutton">
-										SHOWROOM
-									</div>
-									<div class="whitebutton">
-										Meer informatie
+									<div class="u-gridCol6 whiteback">
+										<button class="onlineafspraak" type="button">MAAK ONLINE EEN AFSPRAAK</button>
+										<div class="buttonraam marginbutton">
+											<div class="redbutton">
+												RAMEN
+											</div>
+											<div class="whitebutton">
+												Meer informatie
+											</div>
+										</div>
+										<div class="buttonvloer marginbutton">
+											<div class="redbutton">
+												VLOEREN
+											</div>
+											<div class="whitebutton">
+												Meer informatie
+											</div>
+										</div>
+										<div class="buttonshowroom marginbutton">
+											<div class="redbutton">
+												SHOWROOM
+											</div>
+											<div class="whitebutton">
+												Meer informatie
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-		</div>
+				<div class="plant">
+				</div> 
+		</div>	
 	</div>
+
 
 <?php get_footer(); ?>

@@ -2,14 +2,86 @@
 	background-image: url("../img/muur_achtergrond.jpg");
 }
 
+.plant{
+  background-image: url("../img/plant.png");
+  background-repeat: no-repeat;
+  height: 393px;
+  width: 185px;
+  z-index: 10;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: -361px;
+}
+
+.borderpic{
+	img{
+	border: 4px solid white;
+  	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+  	}
+}
+
+.homefloat{
+	float: right;
+}
+
+.homebottom{
+	margin-bottom: -16px;
+}
+
+.marginleft{
+	margin-left: -10px; 
+}
+
+.marginleftleft{
+	margin-left: 10px;
+}
+
+.plantanders{
+	margin-left: -146px;
+}
+
 .whiteback{
 	background: white; 
+}
+
+.curtains{
+	  z-index: 9;
+  position: relative;
+	img{
+		max-width: 106%;
+		float: right;
+	}
+}
+
+.positionraam{
+	z-index: 0;
+  	position: relative;
+}
+
+.spacepicture{
+	.u-gridCol2{
+			margin-top: -208px;
+  			margin-bottom: 30px;
+	}
+}
+
+.tekstspace{
+	  margin-top: -134px;
+}
+
+.contentpagina{
+	padding-left: 20px;
+}
+
+.paddingsite{
+	padding-left:10px;
+	padding-right:10px;
 }
 
 .raamkozijn{
   background-image: url("../img/raamkozijn.png");
   background-repeat: no-repeat;
-  z-index: 10;
+  z-index: 8;
   position: absolute;
   margin-top: 20px;
   height: 105%;
@@ -18,6 +90,7 @@
   margin-left: -23px;
   margin-top: -23px;
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+
 }
 
 .Content {
@@ -26,6 +99,8 @@
 
 .buttonref{
 	text-align: center;
+	margin-left: -44px;
+	margin-right: -10px;
 	button{
 		margin-top: -10px !important;
 	}
@@ -41,7 +116,20 @@
  		 font-style: italic;
 	}
 	p{
-		margin-bottom: 0px;	
+		margin-bottom: 0px;
+		padding-right: 26px;	
+	}
+}
+
+.recentiehome1{
+	h5{
+		  font-size: 18px;
+		  text-align: right;
+		  margin-bottom: 5px;
+		  margin-top: 53px;
+		  font-style: italic;
+		  border-top: 4px solid #ca0600;
+		  margin-left: -23px;
 	}
 }
 
@@ -94,6 +182,14 @@
   	max-width: 179px;
 }
 
+.buttontekst{
+	background-image: url("../img/Tekstwolk_ramen.gif");
+	background-repeat: no-repeat;
+	height: 150px;
+	margin-left: -9px;
+ 	margin-top: 78px;
+}
+
 .buttonshowroom{
 	background-image: url("../img/buttonshowroom.jpg");
 	background-repeat: no-repeat;
@@ -104,7 +200,7 @@
 }
 
 .marginbutton{
-	margin-top:45px;
+	margin-top:60px;
 }
 
 .redbutton{
@@ -121,6 +217,27 @@
   	padding-bottom: 5px;
   	width: 94px;
   	margin-top: 10px;
+}
+
+.redtitle{
+	background-color: rgba(243, 0, 0, 0.7);
+	background: rgba(243, 0, 0, 0.7);
+	color: rgba(243, 0, 0, 0.7);
+	  color: white;
+	  -webkit-border-top-right-radius: 25px;
+	  -webkit-border-bottom-right-radius: 25px;
+	  -moz-border-radius-topright: 25px;
+	  -moz-border-radius-bottomright: 25px;
+	  border-top-right-radius: 25px;
+	  border-bottom-right-radius: 25px;
+	  padding-left: 0px;
+	  padding-top: 10px;
+	  padding-bottom: 10px;
+	  width: 315px;
+	  margin-top: 78px;
+	  position: absolute;
+	  z-index: 1;
+	  font-size: 18px;
 }
 
 .whitebutton{
@@ -225,4 +342,36 @@ label[for=comment]
 	 .curtains {
 	  display: none;
 	}
+}
+
+/** LIGHTBOX MARKUP **/
+
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
 }

@@ -9,9 +9,6 @@ Template Name: Overons
 		<div class="u-gridContainer ">
 			<div class="u-gridRow">
 				<div class="u-gridCol4"> 
-						<div style="position:relative;">
-							<div class="raamkozijn">
-							</div>
 							<div class="Slider"> <!-- Dit is de slider in de onderkant header -->
 							                   <?php
 
@@ -38,7 +35,6 @@ Template Name: Overons
 															}
 														?>
 							</div> 
-						</div>
 					</div>
 						<div class="u-gridCol7 margincontent whiteback">
 							<div> 
@@ -55,5 +51,6 @@ Template Name: Overons
 				</div>
 		</div>
 	</div>
+
 
 <?php get_footer(); ?>

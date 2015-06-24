@@ -1,19 +1,27 @@
 <?php
 /*
-Template Name: Vloeren 
+Template Name: Referenties
 */
 ?>
  
 <?php get_header(); ?> 
+				<div class="u-gridCol2">
+					<div class="curtainsanders">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/curtainl2.png" />  
+                    </div> 
+				</div>
 	<div class="background"> 
 		<div class="u-gridContainer ">
 			<div class="u-gridRow">
 				<div class="u-gridCol4">  
+						<div style="position:relative;">
+							<div class="raamkozijn">
+							</div> 
 							<div class="Slider"> <!-- Dit is de slider in de onderkant header -->
 							                   <?php
 
 															$args = array(
-																'post_type' => 'slidevloeren',
+																'post_type' => 'slideramen',
 																'posts_per_page'=>999 
 															);
 															$slides = new WP_Query( $args );
@@ -33,9 +41,10 @@ Template Name: Vloeren
 																	<?php
 																}
 															}
-														?>
+														?> 
 							</div> 
-				</div>
+						</div>
+					</div>
 						<div class="u-gridCol7 margincontent whiteback">
 							<div> 
 								<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -48,6 +57,8 @@ Template Name: Vloeren
 								<?php endwhile; endif; ?>
 							</div>
 						</div> 
+				</div>
+				<div class="plant plantanders">
 				</div> 
 		</div>
 	</div>
